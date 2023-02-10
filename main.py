@@ -12,12 +12,3 @@ class Account:
     
     def getPassword(self):
         return self.password
-
-test = Account()
-
-test.setPassword("123")
-test.setUsername("username")
-print(test.getUsername())
-print(test.getPassword())
-test.setUsername("desolacion")
-print(test.getUsername())
