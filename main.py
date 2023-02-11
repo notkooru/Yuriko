@@ -1,5 +1,12 @@
 #10/Feb/2023
 
+#DB Connection
+
+
+#CRUD
+
+
+#Classes
 class Account:
     def setUsername(self, username):
         self.username = username
