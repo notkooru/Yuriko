@@ -16,8 +16,8 @@ def read_accounts():
 def update_account():
     pass
 
-def delete_account():
-    pass
+def delete_account(id):
+   db.pop(int(id)) 
 
 #Classes
 class Account:
