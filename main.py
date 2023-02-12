@@ -4,8 +4,8 @@
 db = [] 
 
 #CRUD
-def createAccount():
-    pass
+def createAccount(account):
+    db.append((account.getUsername(), account.getPassword()))
 
 def readAccounts():
     pass
@@ -18,6 +18,10 @@ def deleteAccount():
 
 #Classes
 class Account:
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
+
     def setUsername(self, username):
         self.username = username
 
