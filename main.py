@@ -3,9 +3,18 @@
 #DB Connection
 db = [] 
 
-
 #CRUD
+def createAccount():
+    pass
 
+def readAccounts():
+    pass
+
+def updateAccount():
+    pass
+
+def deleteAccount():
+    pass
 
 #Classes
 class Account:
