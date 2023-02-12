@@ -8,7 +8,8 @@ def create_account(account):
     db.append((account.get_username(), account.get_password()))
 
 def read_accounts():
-    pass
+    for account in db:
+        print(account[0], account[1])
 
 def update_account():
     pass
