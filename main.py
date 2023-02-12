@@ -1,6 +1,7 @@
 #10/Feb/2023
 
 #DB Connection
+db = [] 
 
 
 #CRUD
