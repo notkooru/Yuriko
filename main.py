@@ -4,16 +4,16 @@
 db = [] 
 
 #CRUD
-def createAccount(account):
-    db.append((account.getUsername(), account.getPassword()))
+def create_account(account):
+    db.append((account.get_username(), account.get_password()))
 
-def readAccounts():
+def read_accounts():
     pass
 
-def updateAccount():
+def update_account():
     pass
 
-def deleteAccount():
+def delete_account():
     pass
 
 #Classes
@@ -22,14 +22,14 @@ class Account:
         self.username = username
         self.password = password
 
-    def setUsername(self, username):
+    def set_username(self, username):
         self.username = username
 
-    def getUsername(self): 
+    def get_username(self): 
         return self.username
     
-    def setPassword(self, password):
+    def set_password(self, password):
         self.password = password
     
-    def getPassword(self):
+    def get_password(self):
         return self.password
