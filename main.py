@@ -5,6 +5,9 @@ import json
 #Database
 db = [] 
 
+def checkDatabaseExistence():
+    pass
+
 #CRUD
 def create_account(account):
     db.append((account.get_username(), account.get_password()))
