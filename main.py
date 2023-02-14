@@ -5,8 +5,14 @@ import json
 #Database
 db = [] 
 
+FNAME = "db.json"
+
 def checkDatabaseExistence():
-    pass
+    if os.path.exists(FNAME):
+        pass
+    else:
+        file = open(FNAME, 'w')
+        file.close()
 
 #CRUD
 def create_account(account):
