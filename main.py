@@ -49,3 +49,4 @@ class Account:
         return self.password
 
 #Start
+checkDatabaseExistence()
