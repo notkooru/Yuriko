@@ -7,7 +7,7 @@ db = []
 
 FNAME = "db.json"
 
-def checkDatabaseExistence():
+def check_database_existence():
     if os.path.exists(FNAME):
         pass
     else:
@@ -49,4 +49,4 @@ class Account:
         return self.password
 
 #Start
-checkDatabaseExistence()
+check_database_existence()
